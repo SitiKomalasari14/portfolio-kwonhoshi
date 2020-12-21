@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Baby Lovely";
+    src: url('../assets/font/baby_lovely/Baby\ Lovely.ttf');
+}
+section {
+    min-height: 375px;
+}
+body {
+    position: relative;
+}
+footer {
+    background-color: #03506f;
+}
+html {
+    scroll-behavior: smooth;
+}
+.portfolio, .skills {
+    background-color: #9BA4B4;
+}
+.profile, .galery {
+    background-color: #3D7EA6;
+}
+.contact, .card {
+    background-color: #F1F6F9;
+}
+.jumbotron {
+    background-image: url('../assets/img/landing2.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.jumbotron h1 {
+    font-family: "Baby Lovely";
+    text-indent: 5px;
+}
+.progress-bar {
+    background-color: #0a043c;
+}
+
+/* fixed scroll */
+#fixed {
+    background: url('../assets/img/fixed.png') no-repeat center center fixed;
+    display: table;
+    height: 50%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+/* media desktop */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #bbbbbb;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+}
+.portfolio h1, .media h1 {
+    font-family: "Baby Lovely";
+    letter-spacing: 5px;
+}
