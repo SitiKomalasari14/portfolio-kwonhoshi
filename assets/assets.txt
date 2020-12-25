@@ -16,6 +16,12 @@ https://twitter.com/pledis_17/status/1325411905062621186?s=20
 profile :
 https://twitter.com/MnetMAMA/status/1335524628035301378?s=20
 
-font:
+font face:
 dafont.com
+
+contact img :
+https://twitter.com/SVT_Fancafe/status/1336600009941217282?s=20
+
+galery :
+https://twitter.com/SVT_Fancafe/status/1254411326778204160?s=20
 

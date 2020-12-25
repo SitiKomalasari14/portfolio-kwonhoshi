@@ -7,6 +7,11 @@ section {
 }
 body {
     position: relative;
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar span {
+    font-family: 'Lilita One', cursive;
+    font-weight: bold;
 }
 footer {
     background-color: #03506f;
@@ -14,15 +19,18 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+/* background */
 .portfolio, .skills {
     background-color: #9BA4B4;
 }
-.profile, .galery {
-    background-color: #3D7EA6;
+.profile, .galery, .quotes {
+    background-color: #709fb0;
 }
 .contact, .card {
     background-color: #F1F6F9;
 }
+
+/* jumbptron */
 .jumbotron {
     background-image: url('../assets/img/landing2.png');
     background-size: cover;
@@ -32,8 +40,17 @@ html {
     font-family: "Baby Lovely";
     text-indent: 5px;
 }
+
 .progress-bar {
     background-color: #0a043c;
+}
+/* info panel */
+.info-panel {
+    background-color: pink;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 5px pink;
 }
 
 /* fixed scroll */
@@ -44,6 +61,43 @@ html {
     position: relative;
     width: 100%;
     background-size: cover;
+}
+/* font */
+#biodata h2, 
+#skills h2, 
+#portfolio h2, 
+#profile h2, 
+#galery h2,
+#contact h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+
+/* contact */
+form {
+    padding: 5px;
+    margin-bottom: 20px;
+    box-shadow: 5px 3px 3px #709fb0;
+    border: 1px solid #709fb0;
+
+}
+form h1 {
+    font-family: "Baby Lovely";
+    letter-spacing: 5px;
+    text-shadow: 1px 1px rgba(0,0,0,1);
+}
+.contact {
+    background-image: url('../assets/img/contact.png');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.contact label {
+    font-weight: bold;
+    color: #ffffff;
+}
+.contact ul li {
+    color: #0a043c;
 }
 
 
@@ -66,6 +120,16 @@ html {
     }
 
 }
+/* media handphone */
+@media (min-width: 300px) {
+    form {
+        margin-top: 15px;
+    }
+}
+
+
+
+
 .portfolio h1, .media h1 {
     font-family: "Baby Lovely";
     letter-spacing: 5px;
